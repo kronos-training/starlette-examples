@@ -5,6 +5,5 @@ https://florimond.dev/blog/articles/2020/05/structuring-starlette-projects/
 
 
 ```shell script
-uvicorn app:app
-
+DEBUG=true uvicorn app:app
 ```
