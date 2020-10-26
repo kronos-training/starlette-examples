@@ -10,3 +10,4 @@ BASE_DIR = Path(__file__).parent
 
 TEMPLATE_DIR = BASE_DIR / 'templates'
 STATIC_DIR = BASE_DIR / 'static'
+SOME_API_KEY = 'wr34875y348'
