@@ -1,10 +1,9 @@
-from pathlib import Path
 from starlette.routing import Route, Mount
 from starlette.staticfiles import StaticFiles
 import views
+import settings
 
-# static = StaticFiles(directory=str(Path(__file__).parent / 'static'))
-static = StaticFiles(directory='static')
+static = StaticFiles(directory=str(settings.STATIC_DIR))
 
 routes = [
     Route('/', views.home, name='home'),
